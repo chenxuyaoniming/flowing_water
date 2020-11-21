@@ -1,0 +1,59 @@
+
+.person_content {
+    padding: 0 20rpx;
+}
+.person_list_item {
+    padding: 20rpx 10rpx;
+    height: 90rpx;
+    font-size: 28rpx;
+    color: #333333;
+    display: flex;
+    background: #a0abe7;
+    border-radius: 8rpx;
+    margin-top: 20rpx;
+}
+.person_list_item image {
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 100rpx;
+    margin-right: 10rpx;
+}
+.person_list_item view {
+    display: inline-block;
+}
+.item_status {
+    width: 120rpx;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10rpx;
+
+}
+.status {
+    margin-bottom: 20rpx;
+}
+.item_detail {
+    flex: 1;
+    overflow: hidden;
+}
+.item_detail > view {
+    display: block;
+    width: 100%;
+}
+.detail_info {
+    margin-bottom: 20rpx;
+}
+.type {
+    font-size: 24rpx;
+    margin-left: 10rpx;
+}
+.time {
+    float: right;
+}
+.content_info {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,8 @@
+<view class="nav">
+    <view s-for="item, index in navList" key={{index}}>
+        <icon type="waiting" color="red"/>
+        <text>
+            {{item.title}}
+        </text>
+    </view>
+</view>

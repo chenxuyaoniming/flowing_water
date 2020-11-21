@@ -1,0 +1,15 @@
+<view class="feed">
+    <text class="title">大家在看</text>
+    <view class="feed_item" s-for="item, index in feedList" key={{index}}>
+        <text>{{item.title}}</text>
+        <video src={{item.videoUrl}} s-if="item.videoUrl"></video>
+        <image src="/assets/images/cat.jpg"
+                lazy-load={{item.imageUrl}}
+                s-if="item.imageUrl"></image>
+        <view class="item_bottom">
+            <text>{{item.author}}</text>
+            <text>{{item.commentCount}}评</text>
+            <text>{{item.createBy}}小时</text>
+        </view>
+    </view>
+</view>

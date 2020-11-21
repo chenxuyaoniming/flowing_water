@@ -1,0 +1,35 @@
+<view class="recommended">
+            <text>推荐专家</text>
+            <view class="expertInfo" s-for="item, index in recommendList" key={{index}}>
+                <image src="/assets/images/cat.jpg"/>
+                <view class="expertInfo_detail">
+                    <text>
+                        <text class="name">
+                            {{item.name}}
+                        </text>
+                        <text class="type">
+                            #{{item.type}}
+                        </text>
+                    </text>
+                    <text>
+                        <text class="count">
+                            {{item.count}}次咨询
+                        </text>
+                        <text class="star">
+                            ⭐ {{item.star}}
+                        </text>
+                    </text>
+                    <text>
+                        {{item.solgan}}
+                    </text>
+                </view>
+                <view class="follow">
+                    <view class="price">
+                        ￥{{item.price}}/次
+                    </view>
+                    <view  class="follow_btn">
+                        关注
+                    </view>
+                </view>
+            </view>
+        </view>

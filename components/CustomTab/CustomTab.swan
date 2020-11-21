@@ -1,0 +1,9 @@
+<view class="customTabbar">
+    <view s-for="item,index in routes"
+            bindtap="taphandler"
+            key={{index}}
+            data-url={{item.path}}
+            class="router-link {{item.id == current ? 'current' : ''}}">
+        {{item.title}}
+    </view>
+</view>

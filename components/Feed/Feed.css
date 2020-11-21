@@ -1,0 +1,30 @@
+
+.feed {
+    padding: 20rpx 40rpx;
+}
+.feed .title {
+    line-height: 60rpx;
+}
+.feed_item {
+    margin-top: 20rpx;
+    font-size: 30rpx;
+    color: #5c5c5c;
+}
+.feed_item > text {
+    display: block;
+    margin-bottom: 20rpx;
+}
+.feed_item > video {
+    height: 340rpx;
+    margin-bottom: 20rpx;
+
+}
+.feed_item > image {
+    margin-bottom: 20rpx;
+    height: 340rpx;
+    width: 100%;
+    border-radius: 10rpx;
+}
+.feed_item .item_bottom > text {
+    margin-right: 20rpx;
+}

@@ -1,12 +1,24 @@
 <!-- index.swan -->
 <view class="container">
-    <view class="logo">
+    <view class="header">
+        <input type="text" placeholder="请输入内容"/>
     </view>
-    <view class="userinfo">
-        <button class="userinfo-login-btn" s-if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-        <view s-else class="userinfo-message">
-        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <view class="content">
+        <water-nav></water-nav>
+        <view class="line"></view>
+        <water-recommend></water-recommend>
+        <view class="line"></view>
+        <view class="question">
+            <text class="title">猜你想问</text>
+            <view class="question_list">
+                <text>股市债市</text>
+                <text>情感</text>
+                <text>新冠疫苗</text>
+                <text>养生健康</text>
+            </view>
         </view>
+        <view class="line"></view>
+        <water-feed></water-feed>
     </view>
+    <custom-tabbar current=1></custom-tabbar>
 </view>

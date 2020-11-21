@@ -1,11 +1,15 @@
 {
     "pages": [
-        "pages/index/index"
+        "pages/index/index",
+        "pages/person/person",
+        "pages/square/square",
+        "pages/message/message",
+        "pages/release/release"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
         "navigationBarTextStyle": "black",
-        "navigationBarTitleText": "智能小程序",
+        "navigationBarTitleText": "百度活水",
         "backgroundTextStyle": "light"
     }
 }

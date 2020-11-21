@@ -1,0 +1,23 @@
+.nav {
+    padding: 0 20rpx 40rpx;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.nav view {
+    width: 160rpx;
+    height: 120rpx;
+    margin-top: 30rpx;
+    padding-top: 20rpx;
+    text-align: center;
+}
+.nav view:hover {
+    background-color: azure;
+}
+.nav view text {
+    width: 160rpx;
+    margin-top: 6rpx;
+    display: block;
+}

@@ -3,7 +3,22 @@
     "compilation-args": {
         "common": {
             "enhance": true
-        }
+        },
+        "options": [
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/person/person",
+                    "query": "",
+                    "scene": {},
+                    "isUpdate": true
+                },
+                "id": 0,
+                "text": "pages/person/person"
+            }
+        ],
+        "selected": 0
     },
     "host": "baiduboxapp",
     "projectname": "program",
@@ -12,8 +27,8 @@
     },
     "swan": {
         "baiduboxapp": {
-            "swanJsVersion": "3.230.27-rc",
-            "extensionJsVersion": "1.19.2"
+            "extensionJsVersion": "1.19.2",
+            "swanJsVersion": "3.230.27-rc"
         }
     }
 }

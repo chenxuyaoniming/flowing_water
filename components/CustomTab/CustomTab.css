@@ -1,0 +1,18 @@
+.customTabbar {
+    width: 100%;
+    height: 100rpx;
+    background-color: rgb(245, 213, 33);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.router-link {
+
+}
+.current {
+    color: #fff;
+}

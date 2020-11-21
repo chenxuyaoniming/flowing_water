@@ -1,0 +1,20 @@
+<view class="person">
+    <view class="person_info">
+        <image src="/assets/images/cat.jpg">
+        </image>
+        <text>
+            精神小伙
+        </text>
+    </view>
+    <view class="line"></view>
+    <tabs
+        class="border-bottom"
+        active-name="{{activeNameOne}}"
+        bindtabchange="tabsOne">
+        <tab-item s-for="tab in tabs" name="{{tab.name}}" label="{{tab.label}}" />
+    </tabs>
+    <view class="line"></view>
+    <water-person-list>
+    </water-person-list>
+    <custom-tabbar current=5></custom-tabbar>
+</view>
