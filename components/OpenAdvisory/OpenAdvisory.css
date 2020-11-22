@@ -1,0 +1,34 @@
+.open_advisory {
+    padding: 10rpx;
+    height: 180rpx;
+    background-color: rgb(245, 255, 240);
+    margin-top: 10rpx;
+    border-radius: 4rpx;
+    box-sizing: border-box;
+}
+.open_advisory_content {
+    font-size: 24rpx;
+    margin-bottom: 10rpx;
+    color: #000;
+}
+.open_advisory_detail {
+    width: 100%;
+    font-size: 24rpx;
+    overflow: hidden;
+    line-height: 32rpx;
+    color: rgba(0, 0, 0, .6);
+}
+.open_advisory_listen {
+    float: left;
+}
+.open_advisory_support {
+    float: left;
+    margin-left: 20rpx;
+}
+.open_advisory_toListen {
+    float: right;
+    padding: 4rpx 8rpx;
+    background-color: chocolate;
+    border-radius: 6rpx;
+    color: #fff;
+}

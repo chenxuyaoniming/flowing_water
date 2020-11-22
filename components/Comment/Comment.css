@@ -1,0 +1,45 @@
+.comment {
+    height: 120rpx;
+    padding: 10rpx;
+    margin-top: 10rpx;
+    background-color: rgb(219, 225, 243);
+    border-radius: 6rpx;
+    box-sizing: border-box;
+    display: flex;
+
+    position: relative;
+}
+.comment > image {
+    height: 100rpx;
+    width: 100rpx;
+    border-radius: 50%;
+}
+.comment_detail {
+    flex: 1;
+    margin-left: 20rpx;
+    overflow: hidden;
+}
+.comment_author {
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.comment_star_item {
+    position: relative;
+    top: 4rpx;
+}
+.comment_time {
+    position: absolute;
+    right: 10rpx;
+    top: 10rpx;
+    font-size: 24rpx;
+    opacity: .6;
+}
+.comment_content {
+    color: #333;
+    opacity: .8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

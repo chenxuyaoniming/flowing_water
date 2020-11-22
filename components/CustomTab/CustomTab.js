@@ -24,7 +24,7 @@ Component({
             },
             {
                 path: '/pages/release/release',
-                title: '+',
+                title: '',
                 id: 3
             },
             {

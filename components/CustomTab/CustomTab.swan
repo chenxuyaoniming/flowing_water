@@ -5,5 +5,6 @@
             data-url={{item.path}}
             class="router-link {{item.id == current ? 'current' : ''}}">
         {{item.title}}
+        <smt-icon name="new-item" s-if="item.id == 3" size="#fff" color="#2ec3fd"></smt-icon>
     </view>
 </view>

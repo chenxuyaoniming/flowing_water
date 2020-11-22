@@ -1,0 +1,56 @@
+<view class="experts">
+    <view class="experts_info">
+        <water-expert></water-expert>
+    </view>
+    <view class="experts_title">
+        <view class="experts_school">
+            <view class="school">
+                <smt-icon class="expert_school_icon" name="staff-m" size="30rpx" />昆士兰大学心理学硕士
+            </view>
+        </view>
+        <view class="experts_type">
+            擅长：分手挽回
+        </view>
+    </view>
+    <view class="experts_tabs">
+        <view
+            s-for="item, index in tabList"
+            data-id="{{item.id}}"
+            bindtap="tabhandlerchange"
+            class="experts_tabs_item {{current == item.id ? 'experts_tabs_current' : ''}}">
+            {{item.label}}
+        </view>
+    </view>
+    <view class="experts_line"></view>
+    <block s-if="current == 1">
+        <view class="resume">
+            <text class="title">专家简介：</text>
+            <text class="description">{{description}}</text>
+        </view>
+        <view class="experts_line"></view>
+
+        <view class="evaluate">
+            <view class="evaluate_title">
+                <view>评价</view>
+                <view class="evaluate_more">
+                    更多
+                </view>
+            </view>
+            <view class="commentList">
+                <water-comment s-for="item, index in commentList" commentItem={{item}} key={{index}}></water-comment>
+            </view>
+        </view>
+        <view class="experts_line"></view>
+
+        <view class="advisory">
+            <view class="advisory_title">公开咨询</view>
+        </view>
+        <view class="advisory_list">
+            <water-open-advisory s-for="advisoryList" key={{index}} advisory={{item}}></water-open-advisory>
+        </view>
+    </view>
+    <view class="article" s-if="current == 2">
+        <water-feed></water-feed>
+        <water-feed></water-feed>
+    </view>
+</view>

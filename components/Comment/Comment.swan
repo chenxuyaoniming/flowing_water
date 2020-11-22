@@ -1,0 +1,23 @@
+<view class="comment">
+    <image src="/assets/images/cat.jpg"></image>
+    <view class="comment_detail">
+        <view class="comment_author">
+            <text>
+                {{commentItem.author}}
+            </text>
+        </view>
+        <view class="comment_star">
+            <smt-icon s-for="commentItem.star"
+                        name="hot"
+                        color="red"
+                        class="comment_star_item"
+                        size="24rpx"/>
+        </view>
+        <view class="comment_content">
+            {{commentItem.content}}
+        </view>
+        <view class="comment_time">
+            {{commentItem.time}}
+        </view>
+    </view>
+</view>

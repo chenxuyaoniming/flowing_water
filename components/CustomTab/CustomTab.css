@@ -14,5 +14,6 @@
 
 }
 .current {
-    color: #fff;
+    color: #ffffff;
+    transform: scale(1.2);
 }

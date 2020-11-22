@@ -11,24 +11,37 @@
                     "ext": {},
                     "index": "pages/person/person",
                     "query": "",
-                    "scene": {},
-                    "isUpdate": true
+                    "scene": {}
                 },
                 "id": 0,
                 "text": "pages/person/person"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/experts/experts",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 1,
+                "text": "pages/experts/experts"
             }
         ],
-        "selected": 0
+        "selected": -2
     },
     "host": "baiduboxapp",
+    "preview": {
+        "packageId": 692070
+    },
     "projectname": "program",
     "setting": {
         "urlCheck": false
     },
     "swan": {
         "baiduboxapp": {
-            "extensionJsVersion": "1.19.2",
-            "swanJsVersion": "3.230.27-rc"
+            "swanJsVersion": "3.230.27-rc",
+            "extensionJsVersion": "1.19.2"
         }
     }
 }

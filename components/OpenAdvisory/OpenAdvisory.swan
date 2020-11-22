@@ -1,0 +1,16 @@
+<view class="open_advisory">
+    <view class="open_advisory_content">
+        {{advisory.content}}
+    </view>
+    <view class="open_advisory_detail">
+        <view class="open_advisory_listen">
+            {{advisory.listen}}人旁听
+        </view>
+        <view class="open_advisory_support">
+            {{advisory.supportCount}}人点赞
+        </view>
+        <view class="open_advisory_toListen" bindtap="toListen">
+            ￥{{advisory.price}} 去旁听
+        </view>
+    </view>
+</view>

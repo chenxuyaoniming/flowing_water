@@ -1,6 +1,6 @@
 <view class="nav">
     <view s-for="item, index in navList" key={{index}}>
-        <icon type="waiting" color="red"/>
+        <smt-icon name={{item.icon}} class="smt-icon"></smt-icon>
         <text>
             {{item.title}}
         </text>

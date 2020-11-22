@@ -1,27 +1,30 @@
 <view class="recommended">
             <text>推荐专家</text>
-            <view class="expertInfo" s-for="item, index in recommendList" key={{index}}>
+            <view class="expertInfo" s-for="item, index in recommendList" key={{index}} bindtap="toExperts">
                 <image src="/assets/images/cat.jpg"/>
                 <view class="expertInfo_detail">
-                    <text>
+                    <view>
                         <text class="name">
                             {{item.name}}
                         </text>
                         <text class="type">
                             #{{item.type}}
                         </text>
-                    </text>
-                    <text>
-                        <text class="count">
+                    </view>
+                    <view>
+                        <view class="count">
                             {{item.count}}次咨询
-                        </text>
-                        <text class="star">
-                            ⭐ {{item.star}}
-                        </text>
-                    </text>
-                    <text>
+                        </view>
+                        <view class="star">
+                        <smt-icon name="hot" size="24rpx" color="red" class="hot"></smt-icon>
+                            <text>
+                            {{item.star}}
+                            </text>
+                        </view>
+                    </view>
+                    <view>
                         {{item.solgan}}
-                    </text>
+                    </view>
                 </view>
                 <view class="follow">
                     <view class="price">

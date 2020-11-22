@@ -18,11 +18,11 @@ view{
     background-color: rgb(189, 189, 189);
 }
 .header {
-    height: 72rpx;
+    /* height: 72rpx; */
     width: 100%;
     text-align: left;
     padding: 18rpx;
-    background-color: rgba(0, 255, 255, .5);
+    background-color: rgba(0, 255, 115, 0.5);
 }
 .header input {
     height: 72rpx;
@@ -53,4 +53,10 @@ view{
     border: 1px solid #dddddd;
     text-align: center;
     line-height: 180rpx;
+}
+.feed {
+    padding: 20rpx 40rpx;
+}
+.feed .title {
+    line-height: 60rpx;
 }

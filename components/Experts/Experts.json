@@ -1,6 +1,6 @@
 {
     "component": true,
     "usingComponents": {
-        "smt-icon": "@smt-ui/component/src/icon"
+        "water-comment": "/components/Comment/Comment"
     }
 }

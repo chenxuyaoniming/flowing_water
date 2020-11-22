@@ -10,17 +10,16 @@ Component({
     },
 
     data: {
-        navList: [
-            {"title": '教育', "url": '', "icon": 'bookmark-m'},
-            {"title": '法律', "url": '', "icon": 'bookshelf-m'},
-            {"title": '健康', "url": '', "icon": 'compress-m'},
-            {"title": '情感', "url": '', "icon": 'hard-disk-m'},
-            {"title": '职场', "url": '', "icon": 'recommend-m'},
-            {"title": '金融', "url": '', "icon": 'subscribe-m'},
-            {"title": '母婴', "url": '', "icon": 'hotel-m'},
-            {"title": '更多', "url": '', "icon": 'recycle-m'},
+        item: {
+            name: '夏洛',
+            type: '情感',
+            count: '100',
+            star: '4.0',
+            solgan: '外事不决找百度，内事不决问夏洛',
+            id: 1,
+            price: '200'
+        },
 
-        ]
     }, // 私有数据，可用于模版渲染
 
     // 生命周期函数，可以为函数，或一个在methods段中定义的方法名

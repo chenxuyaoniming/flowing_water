@@ -1,17 +1,9 @@
-.recommended {
-    padding: 20rpx 40rpx;
-}
-.recommended > text {
-    display: block;
-    font-size: 36rpx;
-}
 .expertInfo {
     height: 140rpx;
-    background-color: azure;
-    margin-top: 16rpx;
+    /* background-color: azure; */
     display: flex;
     flex-wrap: nowrap;
-    border: 1px solid rgb(208, 213, 218);
+    /* border: 1px solid rgb(208, 213, 218); */
     border-radius: 8rpx;
 }
 .expertInfo > image {
@@ -33,7 +25,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.expertInfo_detail > view {
+.expertInfo_detail > text {
     display: block;
     margin-top: 6rpx;
 }
@@ -47,18 +39,11 @@
     font-size: 24rpx;
     opacity: .7;
 }
-.hot {
-    margin-right: 6rpx;
-    position: absolute;
-    top: 2rpx;
-    left: 0;
-}
 .count {
     margin-right: 20rpx;
 }
 .star {
-    position: relative;
-    padding-left: 30rpx;
+    vertical-align: middle;
 }
 .follow {
     width: 120rpx;

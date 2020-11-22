@@ -1,5 +1,4 @@
-<view class="feed">
-    <text class="title">大家在看</text>
+
     <view class="feed_item" s-for="item, index in feedList" key={{index}}>
         <text>{{item.title}}</text>
         <video src={{item.videoUrl}} s-if="item.videoUrl"></video>
@@ -12,4 +11,3 @@
             <text>{{item.createBy}}小时</text>
         </view>
     </view>
-</view>

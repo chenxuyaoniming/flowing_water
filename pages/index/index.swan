@@ -18,7 +18,10 @@
             </view>
         </view>
         <view class="line"></view>
-        <water-feed></water-feed>
+        <view class="feed">
+            <text class="title">大家在看</text>
+            <water-feed></water-feed>
+        </view>
     </view>
     <custom-tabbar current=1></custom-tabbar>
 </view>
