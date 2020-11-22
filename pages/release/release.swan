@@ -1,0 +1,5 @@
+<view class="container">
+    <!--to do-->
+    <custom-tabbar current=3></custom-tabbar>
+
+</view>

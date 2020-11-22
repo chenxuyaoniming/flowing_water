@@ -1,0 +1,98 @@
+.experts_info {
+    padding: 4rpx 20rpx;
+}
+.experts_line {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(228, 230, 235);
+}
+.experts_header {
+    height: 100rpx;
+    width: 100rpx;
+    border-radius: 100rpx;
+    border: 1px solid rgb(240, 240, 240);
+}
+.experts_title {
+    font-size: 26rpx;
+    font-size: #333;
+    line-height: 32rpx;
+    padding: 14rpx 20rpx;
+    background-color: rgb(236, 236, 236);
+}
+.experts_school {
+
+}
+.school {
+    display: inline-block;
+    margin-right: 10rpx;
+    vertical-align: middle;
+}
+.expert_school_icon {
+    position: relative;
+    margin-right: 4rpx;
+    top: 2px;
+}
+.experts_type {
+    margin-top: 20rpx;
+    opacity: .6;
+}
+.experts_tabs {
+    padding: 10rpx 20rpx;
+}
+.experts_tabs_item {
+    padding: 6rpx 16rpx;
+    font-size: 28rpx;
+    color: rgb(90, 90, 90);
+    display: inline-block;
+    margin-right: 8rpx;
+    border-radius: 4rpx;
+}
+.experts_tabs_current {
+    color: #fff;
+    background-color: rgb(64, 117, 233);
+}
+
+.resume {
+    padding: 20rpx;
+    font-size: 26rpx;
+    color: rgb(109, 108, 108);
+
+}
+.resume .title {
+    display: block;
+    margin-bottom: 8rpx;
+}
+.description {
+    font-size: 24rpx;
+}
+
+.evaluate {
+    padding: 20rpx;
+    font-size: 26rpx;
+    overflow: hidden;
+}
+.evaluate_title {
+    width: 100%;
+    display: block;
+    height: 36rpx;
+    line-height: 36rpx;
+    margin-bottom: 14rpx;
+}
+.evaluate_title view {
+    float: left;
+}
+.evaluate_title .evaluate_more {
+    float: right;
+}
+
+.advisory {
+    padding: 10rpx 20rpx;
+    font-size: 28rpx;
+}
+.advisory_title {
+    line-height: 36rpx;
+    opacity: .7;
+}
+.article {
+    padding: 0 20rpx;
+}

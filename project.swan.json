@@ -3,9 +3,37 @@
     "compilation-args": {
         "common": {
             "enhance": true
-        }
+        },
+        "options": [
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/person/person",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 0,
+                "text": "pages/person/person"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/experts/experts",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 1,
+                "text": "pages/experts/experts"
+            }
+        ],
+        "selected": -2
     },
     "host": "baiduboxapp",
+    "preview": {
+        "packageId": 692070
+    },
     "projectname": "program",
     "setting": {
         "urlCheck": false

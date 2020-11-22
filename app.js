@@ -7,7 +7,7 @@
 
 App({
     onLaunch(options) {
-        // do something when launch
+        // do something when laun
     },
     onShow(options) {
         // do something when show

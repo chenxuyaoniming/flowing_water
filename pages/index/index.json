@@ -1,3 +1,10 @@
 {
-    "navigationBarTitleText": "智能小程序示例"
+    "navigationBarTitleText": "百度活水",
+    "usingComponents": {
+        "water-nav": "/components/Nav/Nav",
+        "water-recommend": "/components/Recommend/Recommend",
+        "custom-tabbar": "/components/CustomTab/CustomTab",
+        "water-feed": "/components/Feed/Feed",
+        "smt-icon": "@smt-ui/component/src/icon"
+    }
 }

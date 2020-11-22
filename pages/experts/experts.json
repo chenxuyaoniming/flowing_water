@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+        "water-expert": "/components/Experts/Experts",
+        "smt-icon": "@smt-ui/component/src/icon",
+        "water-comment": "/components/Comment/Comment",
+        "water-open-advisory": "/components/OpenAdvisory/OpenAdvisory",
+        "water-feed": "/components/Feed/Feed"
+    }
+}
