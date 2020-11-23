@@ -26,22 +26,33 @@
                 },
                 "id": 1,
                 "text": "pages/experts/experts"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/create/create",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 2,
+                "text": "pages/create/create"
             }
         ],
-        "selected": -2
+        "selected": 2
     },
     "host": "baiduboxapp",
     "preview": {
         "packageId": 692070
     },
-    "projectname": "program",
+    "projectname": "flowing_water",
     "setting": {
         "urlCheck": false
     },
     "swan": {
         "baiduboxapp": {
-            "swanJsVersion": "3.230.27-rc",
-            "extensionJsVersion": "1.19.2"
+            "extensionJsVersion": "1.19.2",
+            "swanJsVersion": "3.230.27-rc"
         }
     }
 }

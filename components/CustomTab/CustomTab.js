@@ -23,8 +23,8 @@ Component({
 
             },
             {
-                path: '/pages/release/release',
-                title: '',
+                path: '/pages/create/create',
+                title: '+',
                 id: 3
             },
             {
