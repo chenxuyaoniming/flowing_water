@@ -1,0 +1,22 @@
+{
+  "name": "flowing_water",
+  "version": "1.0.0",
+  "description": "开发者工具新建工程,生成demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenxuyaoniming/flowing_water.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenxuyaoniming/flowing_water/issues"
+  },
+  "homepage": "https://github.com/chenxuyaoniming/flowing_water#readme",
+  "dependencies": {
+    "@smt-ui/component": "^1.1.81"
+  }
+}

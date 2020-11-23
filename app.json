@@ -5,7 +5,8 @@
         "pages/square/square",
         "pages/message/message",
         "pages/release/release",
-        "pages/experts/experts"
+        "pages/experts/experts",
+        "pages/create/create"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
