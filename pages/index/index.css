@@ -40,23 +40,47 @@ view{
     padding-bottom: 100rpx;
 }
 .question {
-    padding: 20rpx 40rpx;
+    padding: 20rpx 20rpx;
+    height: 500rpx;
 }
 .question .title {
     line-height: 60rpx;
 }
-.question_list > text {
+.question_list {
+    position: relative;
+
+}
+.question_list view{
     display: inline-block;
-    width: 200rpx;
-    height: 180rpx;
     border-radius: 200rpx;
     border: 1px solid #dddddd;
     text-align: center;
-    line-height: 180rpx;
+    position: absolute;
 }
+.question_list_1 {
+    top: 20rpx;
+    background-color: beige;
+    box-shadow: 0 10rpx 10rpx #ffcd62;
+}
+.question_list_2 {
+    top: 320rpx;
+    left: 150rpx;
+    line-height: 100rpx;
+    width: 100rpx;
+    height: 100rpx;
+}
+.question_list_3 {
+    left: 300rpx;
+    width: 500px;
+}
+.question_list_4 {
+    left: 500rpx;
+}
+
 .feed {
     padding: 20rpx 40rpx;
 }
 .feed .title {
     line-height: 60rpx;
 }
+

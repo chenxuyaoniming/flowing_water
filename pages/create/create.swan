@@ -6,15 +6,30 @@
     <view class="create_limit">
         {{content.length}}/300
     </view>
+    <view class="create_image_title">添加图片：</view>
     <view class="create_image">
-        <image s-for="imageList" src={{item}} key={{index}} class="image_item"></image>
-        <smt-icon s-if="imageList.length < 5" name="new-item" color="#ddd" size="200rpx" bindtap="chooseImage"></smt-icon>
+        <div class="image_item" s-for="imageList" key={{index}}>
+            <image  src={{item}}  class="image_item"></image>
+            <smt-icon name="close"
+                        color="#ddd"
+                        data-index="{{index}}"
+                        bindtap="delImage"
+                        class="image_close"></smt-icon>
+        </div>
+        <smt-icon s-if="imageList.length < 3"
+                  name="new-item"
+                  color="#ddd"
+                  size="200rpx"
+                  bindtap="chooseImage"></smt-icon>
     </view>
     <view class="create_price">
-        请设置问题金额：¥ <input type="number" id="price_ipt"/>
+        请设置问题金额：¥ <input type="number" id="price_ipt" value="{= price =}"/>
     </view>
     <view class="create_btn">
-        <button class="btn btn_success" bindtap="success">确认</button>
-        <button class="btn btn_fail" bindtap="cancel">取消</button>
+        <text class="btn btn_success" bindtap="success">确认</text>
+        <text class="btn btn_fail" bindtap="cancel">取消</text>
+    </view>
+    <view class="create_wraper" s-if="isSearch">
+
     </view>
 </view>

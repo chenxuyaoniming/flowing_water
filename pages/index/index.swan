@@ -11,10 +11,10 @@
         <view class="question">
             <text class="title">猜你想问</text>
             <view class="question_list">
-                <text>股市债市</text>
-                <text>情感</text>
-                <text>新冠疫苗</text>
-                <text>养生健康</text>
+                <view class="question_list_1">股市债市</view>
+                <view class="question_list_2">情感</view>
+                <view class="question_list_3">新冠疫苗</view>
+                <view class="question_list_4">养生健康</view>
             </view>
         </view>
         <view class="line"></view>

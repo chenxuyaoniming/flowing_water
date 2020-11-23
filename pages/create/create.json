@@ -1,5 +1,5 @@
 {
-    "navigationBarTitleText": "发布",
+    "navigationBarTitleText": "发布咨询",
     "usingComponents": {
         "smt-icon": "@smt-ui/component/src/icon"
     }

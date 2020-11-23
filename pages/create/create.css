@@ -1,13 +1,12 @@
 #form {
-    height: 300rpx;
+    height: 400rpx;
     border: 1px solid #ddd;
     padding: 20rpx;
     border-radius: 8rpx;
-    margin: 6rpx;
     box-sizing: border-box;
     width: 750rpx;
+    background-color: #fff;
 }
-
 .create_limit {
     text-align: right;
     font-size: 24rpx;
@@ -17,33 +16,70 @@
 .create_image {
     display: flex;
 }
+.create_image_title {
+    padding: 0 20rpx;
+    font-weight: bold;
+    margin-bottom: 20rpx;
+}
 .image_item {
-    height: 160rpx;
-    width: 160rpx;
-    margin: 20rpx 10rpx 0;
+    height: 164rpx;
+    width: 164rpx;
+    margin: 10rpx 10rpx 0;
+    position: relative;
+    border-radius: 8rpx;
+}
+.image_close {
+    position: absolute;
+    z-index: 10;
+    bottom: -26rpx;
+    right: -20rpx;
+    transform: scale(.7);
+}
+.image_item > image {
+    display: inline-block;
 }
 .create_price {
     display: flex;
-    padding: 0 20rpx;
+    padding: 20rpx 20rpx 0;
+    font-size: 28rpx;
+    align-items: center;
+    font-weight: bold;
 }
 #price_ipt {
     display: inline-block;
-    width: 80rpx;
+    width: 60rpx;
     border: 1px solid #ddd;
     border-radius: 4rpx;
-    margin-left: 10rpx;
+    margin-left: 20rpx;
+    margin-right: 300rpx;
+    padding: 10rpx;
 }
 .create_btn {
     display: flex;
+    justify-content: space-around;
 }
 .btn {
     width: 160rpx;
     height: 64rpx;
     line-height: 64rpx;
     margin-top: 100rpx;
+    text-align: center;
+    border-radius: 8rpx;
+    display: inline-block;
+    border: 1px solid #ddd;
 }
 .btn_success {
     background-color: rgb(46, 154, 255);
     color: #fff;
-    border-color: rgb(46, 154, 255);
+    border:2rpx solid rgb(46, 154, 255);
+}
+
+.create_wraper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: .9;
 }
