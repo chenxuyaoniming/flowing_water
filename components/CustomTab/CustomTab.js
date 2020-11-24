@@ -14,27 +14,32 @@ Component({
             {
                 path: '/pages/index/index',
                 title: '首页',
+                icon: 'home',
                 id: 1
 
             },{
                 path: '/pages/square/square',
                 title: '广场',
+                icon: 'spread',
                 id: 2
 
             },
             {
                 path: '/pages/create/create',
-                title: '+',
+                title: '',
+                icon: 'new-item',
                 id: 3
             },
             {
-                path: '/pages/message/message',
+                path: '/pages/chat/chat',
                 title: '消息',
+                icon: 'discuss',
                 id: 4
             },
             {
                 path: '/pages/person/person',
                 title: '我的',
+                icon: 'personal-center',
                 id: 5
             }
         ]
@@ -54,6 +59,7 @@ Component({
             });
         },
         taphandler(e) {
+            console.log(e, 'e:::')
             const url = e.target.dataset.url;
             swan.navigateTo({
                 url

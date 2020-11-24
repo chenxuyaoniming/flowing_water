@@ -1,10 +1,20 @@
 <view class="customTabbar">
     <view s-for="item,index in routes"
-            bindtap="taphandler"
             key={{index}}
-            data-url={{item.path}}
+
             class="router-link {{item.id == current ? 'current' : ''}}">
-        {{item.title}}
-        <smt-icon name="new-item" s-if="item.id == 3" size="#fff" color="#2ec3fd"></smt-icon>
+        <view class="tabbar_flow"
+                catchtap="taphandler"
+                data-url={{item.path}} >
+        </view>
+        <smt-icon name="{{item.icon}}"
+                  size="{{item.id == 3 ? '60rpx' : '30rpx'}}"
+                  class="tabbar_icon"
+                  data-url="{{item.path}}"
+                  color="{{item.id == current ? '#e06d0f' : '#333'}}">
+        </smt-icon>
+        <view>
+            {{item.title}}
+        </view>
     </view>
 </view>

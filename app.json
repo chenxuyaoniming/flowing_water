@@ -3,10 +3,11 @@
         "pages/index/index",
         "pages/person/person",
         "pages/square/square",
-        "pages/message/message",
         "pages/release/release",
         "pages/experts/experts",
-        "pages/create/create"
+        "pages/create/create",
+        "pages/chat/chat",
+        "pages/chatRoom/chatRoom"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",

@@ -37,13 +37,35 @@
                 },
                 "id": 2,
                 "text": "pages/create/create"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/chat/chat",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 3,
+                "text": "pages/chat/chat"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/chatRoom/chatRoom",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 4,
+                "text": "pages/chatRoom/chatRoom"
             }
         ],
-        "selected": -2
+        "selected": 4
     },
     "host": "baiduboxapp",
     "preview": {
-        "packageId": 693268
+        "packageId": 694363
     },
     "projectname": "flowing_water",
     "setting": {

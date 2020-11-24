@@ -1,0 +1,37 @@
+<view class="chat_room">
+    <view class="chat_room_content">
+        <view class="chat_room_inner">
+            <block s-for="chatList" key={{index}}>
+                <view class="{{item.author ? 'chat_item_left' : 'chat_item_right'}}">
+                    <image src="{{item.imageUrl}}"/>
+                    <view class="chat_item_content">
+                        <view class="chat_item_title">
+                            {{item.author || '我'}}
+                        </view>
+                        <text class="chat_item_text">
+                            {{item.content}}
+                        </text>
+                    </view>
+                </view>
+            </block>
+            
+            <!-- <view class="chat_item_right">
+                <image src="/assets/images/cat.jpg"/>
+                <view class="chat_item_content">
+                    <view class="chat_item_title">
+                        夏洛
+                    </view>
+                    <text class="chat_item_text">
+                        阿萨德法师打发撒大声地发士大夫撒旦阿斯顿发送到发送
+                    </text>
+                </view>
+            </view> -->
+        </view>
+    </view>
+    <view class="chat_room_form">
+        <input type="text" placeholder="请输入内容" value="{= value =}" bindinput="setValue"/>
+        <view class="chat_room_btn" bindtap="send">
+            发送
+        </view>
+    </view>
+</view>
