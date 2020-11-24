@@ -3,38 +3,45 @@
     padding: 0 20rpx;
 }
 .person_list_item {
-    padding: 20rpx 10rpx;
-    height: 90rpx;
     font-size: 28rpx;
     color: #333333;
     display: flex;
-    background: #a0abe7;
-    border-radius: 8rpx;
+    background: #fff;
+    border-radius: 10rpx;
     margin-top: 20rpx;
+    box-shadow: 0 4rpx 10rpx #c6c8c9;
 }
 .person_list_item image {
+    margin: 10rpx;
     width: 100rpx;
     height: 100rpx;
-    border-radius: 100rpx;
-    margin-right: 10rpx;
+    border-radius: 10rpx;
+    margin-left: 0;
 }
 .person_list_item view {
     display: inline-block;
 }
 .item_status {
-    width: 120rpx;
+    width: 100rpx;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 10rpx;
-
+    background-color: rgb(155, 217, 253);
+    padding: 10rpx ;
 }
 .status {
     margin-bottom: 20rpx;
+    font-weight: bold;
+}
+.price {
+    color: rgb(255, 38, 0);
 }
 .item_detail {
     flex: 1;
+    padding: 10rpx;
+    padding-left: 0;
     overflow: hidden;
 }
 .item_detail > view {
@@ -50,6 +57,8 @@
 }
 .time {
     float: right;
+    font-size: 24rpx;
+    opacity: .7;
 }
 .content_info {
     width: 100%;

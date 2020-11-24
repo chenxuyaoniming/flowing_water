@@ -9,6 +9,9 @@
     flex-direction: column;
     padding: 0;
 }
+page {
+    background-color: rgb(236, 236, 236);
+}
 view{
     box-sizing: border-box;
 }
@@ -26,10 +29,11 @@ view{
 }
 .header input {
     height: 72rpx;
-    border: 2rpx solid rgb(133, 129, 129);
+    border: 2rpx solid rgb(211, 208, 208);
     border-radius: 36rpx;
     margin: 0 40rpx;
     text-indent: 12px;
+    padding: 0 20rpx;
     font-size: 28rpx;
     background-color: #fff;
 }
@@ -39,14 +43,23 @@ view{
     overflow-y: auto;
     padding-bottom: 100rpx;
 }
+.index_recommend, .question, .feed {
+    background-color: #fff;
+    margin: 10rpx 20rpx 0;
+    border-radius: 8rpx;
+}
 .index_recommend {
-    padding: 10rpx 16rpx;
+    padding: 10rpx 30rpx;
 }
 .question {
-    padding: 20rpx 20rpx;
+    padding: 10rpx 30rpx;
 }
 .question .title {
     line-height: 30rpx;
+}
+.question_list {
+    margin-top: 20rpx;
+    height: 260rpx;
 }
 .question_list view {
     margin-top: 10rpx;
@@ -60,11 +73,11 @@ view{
 .question_list_1 {
     font-size: 28rpx;
     color: red;
-    padding-left: 40rpx;
+    padding-left: 180rpx;
 }
 .question_list_2 {
     font-size: 24rpx;
-    color: aquamarine;
+    color: rgb(161, 79, 238);
     padding-left: 120rpx;
 }
 .question_list_3 {
@@ -79,9 +92,12 @@ view{
 }
 
 .feed {
-    padding: 20rpx 20rpx;
+    padding: 20rpx 30rpx;
+}
+.title {
+    font-size: 28rpx;
 }
 .feed .title {
-    line-height: 60rpx;
+    line-height: 30rpx;
 }
 

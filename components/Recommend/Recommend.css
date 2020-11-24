@@ -7,18 +7,17 @@
 }
 .expertInfo {
     height: 140rpx;
-    background-color: azure;
+    background-color: rgb(247, 247, 253);
     margin-top: 16rpx;
     display: flex;
     flex-wrap: nowrap;
-    border: 1px solid rgb(208, 213, 218);
     border-radius: 8rpx;
 }
 .expertInfo > image {
     width: 100rpx;
     height: 100rpx;
     margin: 20rpx 0 0 10rpx;
-    border-radius: 100rpx;
+    border-radius: 8rpx;
     float: left;
 }
 .expertInfo_detail {
@@ -35,13 +34,15 @@
 }
 .expertInfo_detail > view {
     display: block;
-    margin-top: 6rpx;
+    margin-top: 4rpx;
 }
 .name, .count, .type, .star {
     display: inline-block;
 }
 .name {
     margin-right: 20rpx;
+    font-weight: bold;
+    font-size: 26rpx;
 }
 .type {
     font-size: 24rpx;
@@ -71,14 +72,15 @@
     margin-top:10rpx;
 }
 .price {
-    border: 1px solid rgb(214, 214, 214);
     padding: 4rpx;
-    border-radius: 4rpx;
+    border-radius: 8rpx;
+    background-color: #fff;
 }
 .follow_btn {
     display: inline-block;
-    background-color: brown;
-    padding: 2rpx 4rpx;
+    font-size: 24rpx;
+    background-color: rgb(255, 147, 147);
+    padding: 2rpx 16rpx;
     color: #fff;
-    border-radius: 4rpx;
+    border-radius: 8rpx;
 }

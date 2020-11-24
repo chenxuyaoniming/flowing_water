@@ -18,7 +18,7 @@
 }
 .create_image_title {
     padding: 0 20rpx;
-    font-weight: bold;
+    font-size: 30rpx;
     margin-bottom: 20rpx;
 }
 .image_item {
@@ -43,7 +43,6 @@
     padding: 20rpx 20rpx 0;
     font-size: 28rpx;
     align-items: center;
-    font-weight: bold;
 }
 #price_ipt {
     display: inline-block;

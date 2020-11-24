@@ -8,12 +8,11 @@
     </view>
     <view class="line"></view>
     <tabs
-        class="border-bottom"
+        class="person-tabs"
         active-name="{{activeNameOne}}"
         bindtabchange="tabsOne">
         <tab-item s-for="tab in tabs" name="{{tab.name}}" label="{{tab.label}}" />
     </tabs>
-    <view class="line"></view>
     <water-person-list>
     </water-person-list>
     <custom-tabbar current=5></custom-tabbar>

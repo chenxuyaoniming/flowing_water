@@ -11,7 +11,7 @@ page {
     box-sizing: border-box;
 }
 .chat_item {
-    height: 100rpx;
+    height: 120rpx;
     padding: 10rpx 0;
     margin: 0 10rpx;
     box-sizing: border-box;
@@ -20,8 +20,8 @@ page {
     margin-top: 10rpx;
 }
 .chat_item > image {
-    height: 80rpx;
-    width: 80rpx;
+    height: 100rpx;
+    width: 100rpx;
     border-radius: 10rpx;
     float: left;
     margin-right: 20rpx;
@@ -31,10 +31,11 @@ page {
     overflow: hidden;
 }
 .chat_item_user {
-    font-size: 28rpx;
+    font-size: 32rpx;
 }
 .chat_item_message {
     font-size: 26rpx;
+    margin-top: 20rpx;
     opacity: .8;
     overflow: hidden;
     text-overflow: ellipsis;

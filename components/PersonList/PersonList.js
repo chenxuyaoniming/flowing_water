@@ -13,7 +13,7 @@ Component({
         list: [
             {
                 status: '已完成',
-                price: '价格',
+                price: '200',
                 author: '高球',
                 time: '2020-11-11',
                 type: '情感',
@@ -22,7 +22,7 @@ Component({
             },
             {
                 status: '已完成',
-                price: '价格',
+                price: '100',
                 author: '高球',
                 time: '2020-11-11',
                 type: '情感',
@@ -31,7 +31,7 @@ Component({
             },
             {
                 status: '已完成',
-                price: '价格',
+                price: '30',
                 author: '高球',
                 time: '2020-11-11',
                 type: '情感',

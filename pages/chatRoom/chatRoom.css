@@ -7,7 +7,7 @@ page, .chat_room {
 .chat_room {
     display: flex;
     flex-direction: column;
-    
+
 }
 .chat_room_content {
     flex: 1;
@@ -59,12 +59,13 @@ page, .chat_room {
     white-space: wrap;
 }
 .chat_item_text {
-    padding: 6rpx 12rpx;
+    padding: 12rpx;
+    margin-top: 6rpx;
     display: inline-block;
     background-color: aliceblue;
     border-radius: 10rpx;
     border: 1px solid rgb(236, 236, 236);
-    box-shadow: 0 0 4rpx #ddd;
+    box-shadow: 0 0 10rpx #ddd;
 }
 .chat_item_right {
     padding: 10rpx;

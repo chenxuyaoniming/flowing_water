@@ -1,5 +1,5 @@
 .nav {
-    padding: 0 20rpx 20rpx;
+    padding: 0 10rpx 10rpx;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +12,8 @@
     text-align: center;
     padding-bottom: 10rpx;
     font-size: 26rpx;
+    border-radius: 6rpx;
+    background-color: #fff;
 }
 .nav view:hover {
     background-color: azure;

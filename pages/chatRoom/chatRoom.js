@@ -25,7 +25,7 @@ Page({
         // 监听页面显示的生命周期函数
         // this.options do something
         if (this.options) {
-            swan.setTopBarText({text: this.options.name})
+            swan.setNavigationBarTitle({title: this.options.name})
         }
     },
     onHide: function() {
