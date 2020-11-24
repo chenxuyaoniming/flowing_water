@@ -1,10 +1,10 @@
 import mobx from "../../utils/globalData";
 
-
+// "bdfile://tmp/1606134319909901.jpeg"
 Page({
     data: {
         content: '',
-        imageList: ["bdfile://tmp/1606134319909901.jpeg"],
+        imageList: [],
         price: 0,
         isSearch: false
     },

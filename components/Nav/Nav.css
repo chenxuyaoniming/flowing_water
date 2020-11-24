@@ -11,6 +11,7 @@
     margin-top: 20rpx;
     text-align: center;
     padding-bottom: 10rpx;
+    font-size: 26rpx;
 }
 .nav view:hover {
     background-color: azure;
@@ -21,5 +22,5 @@
     display: block;
 }
 .smt-icon {
-
+    transform: scale(1.5);
 }

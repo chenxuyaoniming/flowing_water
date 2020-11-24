@@ -54,14 +54,14 @@
                     "compileArgs": "--module cmd",
                     "ext": {},
                     "index": "pages/chatRoom/chatRoom",
-                    "query": "",
+                    "query": "id=1&name=\"张涛\"",
                     "scene": {}
                 },
                 "id": 4,
                 "text": "pages/chatRoom/chatRoom"
             }
         ],
-        "selected": 4
+        "selected": -2
     },
     "host": "baiduboxapp",
     "preview": {

@@ -18,6 +18,7 @@ page, .chat_room {
     overflow: hidden;
     display: flex;
     font-size: 28rpx;
+    margin-bottom: 20rpx;
 }
 .chat_room_form input {
     flex: 1;
@@ -87,3 +88,4 @@ page, .chat_room {
     font-weight: bold;
     color: #333;
 }
+

@@ -1,5 +1,4 @@
 <view class="recommended">
-            <text>推荐专家</text>
             <view class="expertInfo" s-for="item, index in recommendList" key={{index}} bindtap="toExperts">
                 <image src="/assets/images/cat.jpg"/>
                 <view class="expertInfo_detail">

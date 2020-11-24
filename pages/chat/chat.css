@@ -1,0 +1,42 @@
+
+page, .chat {
+    height: calc(100% - 54rpx);
+    width: 100%;
+    overflow: auto;
+}
+page {
+    background-color: rgb(233, 232, 238);
+}
+.chat {
+    box-sizing: border-box;
+}
+.chat_item {
+    height: 100rpx;
+    padding: 10rpx 0;
+    margin: 0 10rpx;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8rpx;
+    margin-top: 10rpx;
+}
+.chat_item > image {
+    height: 80rpx;
+    width: 80rpx;
+    border-radius: 10rpx;
+    float: left;
+    margin-right: 20rpx;
+    margin-left: 10rpx;
+}
+.chat_item_content {
+    overflow: hidden;
+}
+.chat_item_user {
+    font-size: 28rpx;
+}
+.chat_item_message {
+    font-size: 26rpx;
+    opacity: .8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

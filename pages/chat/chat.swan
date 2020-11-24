@@ -1,3 +1,19 @@
-<view class="container">
-    <!--to do-->
+
+<view class="chat">
+    <view class="chat_content">
+        <view>
+            <view class="chat_item" s-for="chatList" key="{{index}}" bindtap="toChat" data-item="{{item}}">
+                <image src="{{item.imageUrl}}"/>
+                <view class="chat_item_content">
+                    <view class="chat_item_user">
+                        {{item.author}}
+                    </view>
+                    <view class="chat_item_message">
+                        {{item.content}}
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <custom-tabbar current="4"></custom-tabbar>
 </view>

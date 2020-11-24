@@ -39,46 +39,47 @@ view{
     overflow-y: auto;
     padding-bottom: 100rpx;
 }
+.index_recommend {
+    padding: 10rpx 16rpx;
+}
 .question {
     padding: 20rpx 20rpx;
-    height: 500rpx;
 }
 .question .title {
-    line-height: 60rpx;
+    line-height: 30rpx;
 }
-.question_list {
-    position: relative;
-
+.question_list view {
+    margin-top: 10rpx;
 }
-.question_list view{
+.question_list text{
+    border: 1px solid;
     display: inline-block;
-    border-radius: 200rpx;
-    border: 1px solid #dddddd;
-    text-align: center;
-    position: absolute;
+    padding: 4rpx 6rpx;
+    margin-left: 30rpx;
 }
 .question_list_1 {
-    top: 20rpx;
-    background-color: beige;
-    box-shadow: 0 10rpx 10rpx #ffcd62;
+    font-size: 28rpx;
+    color: red;
+    padding-left: 40rpx;
 }
 .question_list_2 {
-    top: 320rpx;
-    left: 150rpx;
-    line-height: 100rpx;
-    width: 100rpx;
-    height: 100rpx;
+    font-size: 24rpx;
+    color: aquamarine;
+    padding-left: 120rpx;
 }
 .question_list_3 {
-    left: 300rpx;
-    width: 500px;
+    font-size: 36rpx;
+    color: rgb(0, 131, 245);
+    padding-left: 40rpx;
 }
 .question_list_4 {
-    left: 500rpx;
+    font-size: 30rpx;
+    color: rgb(240, 132, 0);
+    padding-left: 200rpx;
 }
 
 .feed {
-    padding: 20rpx 40rpx;
+    padding: 20rpx 20rpx;
 }
 .feed .title {
     line-height: 60rpx;

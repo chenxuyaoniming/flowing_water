@@ -23,6 +23,10 @@ Page({
     },
     onShow: function() {
         // 监听页面显示的生命周期函数
+        // this.options do something
+        if (this.options) {
+            swan.setTopBarText({text: this.options.name})
+        }
     },
     onHide: function() {
         // 监听页面隐藏的生命周期函数
