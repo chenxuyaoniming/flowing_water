@@ -1,0 +1,12 @@
+<smt-feed
+    class="smt-feed pull-down-refresh"
+    pull-to-refresh
+    bind:refresh="onRefresh"
+    bind:scrolltolower="scrollToLower"
+    text="{{PullText}}"
+>
+    <view class="columnist">
+        <water-recommend recommendList="{{recommendList}}"></water-recommend>
+    </view>
+    <!-- <smt-spin status="{{status}}" bind:tap="reload"></smt-spin> -->
+</smt-feed>

@@ -33,6 +33,12 @@ Component({
             this.setData({
                 // 更新属性和数据的方法与更新页面数据的方法类似
             });
+        },
+        toColumn(e) {
+            const {item} = e.target.dataset;
+            item && swan.navigateTo({
+                url:`/pages/columnist/columnist?title=${item.title}`
+            })
         }
     }
 });

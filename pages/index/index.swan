@@ -7,9 +7,9 @@
         <water-nav></water-nav>
         <view class="index_recommend">
             <text class="title">推荐专家</text>
-            <water-recommend></water-recommend>
+            <water-recommend recommendList="{{recommendList}}"></water-recommend>
         </view>
-            
+
         <view class="question">
             <text class="title">猜你想问</text>
             <view class="question_list">

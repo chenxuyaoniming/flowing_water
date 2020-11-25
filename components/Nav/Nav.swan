@@ -1,5 +1,5 @@
 <view class="nav">
-    <view s-for="item, index in navList" key={{index}}>
+    <view s-for="item, index in navList" data-item={{item}} key={{index}} bindtap="toColumn">
         <smt-icon name={{item.icon}} class="smt-icon"></smt-icon>
         <text>
             {{item.title}}

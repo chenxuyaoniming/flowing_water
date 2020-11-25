@@ -70,13 +70,24 @@
                 },
                 "id": 5,
                 "text": "pages/square/square"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/columnist/columnist",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 6,
+                "text": "pages/columnist/columnist"
             }
         ],
         "selected": -2
     },
     "host": "baiduboxapp",
     "preview": {
-        "packageId": 696683
+        "packageId": 696859
     },
     "projectname": "flowing_water",
     "setting": {

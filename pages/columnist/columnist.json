@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "water-recommend": "/components/Recommend/Recommend",
+        "smt-feed": "@smt-ui/component/src/feed",
+        "smt-spin": "@smt-ui/component/src/spin"
+    }
+}
