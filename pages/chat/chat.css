@@ -1,11 +1,11 @@
 
 page, .chat {
-    height: calc(100% - 54rpx);
     width: 100%;
     overflow: auto;
 }
 page {
     background-color: rgb(233, 232, 238);
+    margin-bottom: 130rpx;
 }
 .chat {
     box-sizing: border-box;

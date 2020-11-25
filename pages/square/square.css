@@ -9,6 +9,6 @@ page {
 .square {
     overflow: hidden;
     padding: 10rpx;
-    padding-bottom: 100rpx;
+    padding-bottom: 130rpx;
     box-sizing: border-box;
 }

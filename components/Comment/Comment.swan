@@ -7,11 +7,11 @@
             </text>
         </view>
         <view class="comment_star">
-            <smt-icon s-for="commentItem.star"
+            <!-- <smt-icon s-for="commentItem.star"
                         name="hot"
                         color="red"
                         class="comment_star_item"
-                        size="24rpx"/>
+                        size="24rpx"/> -->
         </view>
         <view class="comment_content">
             {{commentItem.content}}

@@ -1,4 +1,6 @@
 <view class="person">
+    <custom-tabbar current=5></custom-tabbar>
+
     <view class="person_info">
         <image src="/assets/images/cat.jpg">
         </image>
@@ -13,7 +15,8 @@
         bindtabchange="tabsOne">
         <tab-item s-for="tab in tabs" name="{{tab.name}}" label="{{tab.label}}" />
     </tabs>
-    <water-person-list>
+    <water-person-list s-if="activeNameOne == 1" dataList="{{list1}}">
     </water-person-list>
-    <custom-tabbar current=5></custom-tabbar>
+    <water-person-list s-if="activeNameOne == 2" dataList="{{list2}}">
+    <water-person-list>
 </view>

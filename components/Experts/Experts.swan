@@ -1,5 +1,5 @@
 <view class="expertInfo">
-    <image src="/assets/images/cat.jpg" />
+    <image src="/assets/images/dog.jpeg" />
     <view class="expertInfo_detail">
         <text>
             <text class="name">

@@ -1,5 +1,5 @@
     <view class="person_content">
-        <view class="person_list_item" s-for="item, index in list" key={{index}}>
+        <view class="person_list_item" s-for="item, index in dataList" key={{index}}>
             <view class="item_status">
                 <view class="status">{{item.status}}</view>
                 <view class="price">￥{{item.price}}</view>

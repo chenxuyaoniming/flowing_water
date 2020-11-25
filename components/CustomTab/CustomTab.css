@@ -1,6 +1,6 @@
 .customTabbar {
     width: 100%;
-    height: 100rpx;
+    height: 130rpx;
     background-color: #fff;
     position: fixed;
     bottom: 0;
@@ -10,6 +10,7 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 0rpx 20rpx #b7b8b9;
+    padding-bottom: 30rpx;
 }
 view {
     box-sizing: border-box;

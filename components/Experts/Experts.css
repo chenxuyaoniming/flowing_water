@@ -7,10 +7,10 @@
     border-radius: 8rpx;
 }
 .expertInfo > image {
-    width: 100rpx;
-    height: 100rpx;
+    width: 110rpx;
+    height: 110rpx;
     margin: 20rpx 0 0 10rpx;
-    border-radius: 100rpx;
+    border-radius: 10rpx;
     float: left;
 }
 .expertInfo_detail {
@@ -27,7 +27,7 @@
 }
 .expertInfo_detail > text {
     display: block;
-    margin-top: 6rpx;
+    margin-top: 4rpx;
 }
 .name, .count, .type, .star {
     display: inline-block;
@@ -56,14 +56,14 @@
     margin-top:10rpx;
 }
 .price {
-    border: 1px solid rgb(214, 214, 214);
+    border: 1px solid rgb(183, 140, 211);
     padding: 4rpx;
-    border-radius: 4rpx;
+    border-radius: 8rpx;
 }
 .follow_btn {
     display: inline-block;
-    background-color: brown;
-    padding: 2rpx 4rpx;
+    background-color: rgb(187, 85, 25);
+    padding: 2rpx 8rpx;
     color: #fff;
     border-radius: 4rpx;
 }

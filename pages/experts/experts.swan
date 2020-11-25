@@ -12,6 +12,11 @@
             擅长：分手挽回
         </view>
     </view>
+    <view class="resume">
+            <text class="title">专家简介：</text>
+            <text class="description">{{description}}</text>
+        </view>
+    <view class="experts_line"></view>
     <view class="experts_tabs">
         <view
             s-for="item, index in tabList"
@@ -21,14 +26,7 @@
             {{item.label}}
         </view>
     </view>
-    <view class="experts_line"></view>
     <block s-if="current == 1">
-        <view class="resume">
-            <text class="title">专家简介：</text>
-            <text class="description">{{description}}</text>
-        </view>
-        <view class="experts_line"></view>
-
         <view class="evaluate">
             <view class="evaluate_title">
                 <view>评价</view>

@@ -10,6 +10,7 @@
     border-radius: 10rpx;
     margin-top: 20rpx;
     box-shadow: 0 4rpx 10rpx #c6c8c9;
+    overflow: hidden;
 }
 .person_list_item image {
     margin: 10rpx;
@@ -28,15 +29,17 @@
     align-items: center;
     justify-content: center;
     margin-right: 10rpx;
-    background-color: rgb(155, 217, 253);
+    background-color: rgb(80, 180, 180);
     padding: 10rpx ;
+    color: #fff;
 }
 .status {
     margin-bottom: 20rpx;
     font-weight: bold;
 }
 .price {
-    color: rgb(255, 38, 0);
+    font-weight: bold;
+    color: rgb(223, 39, 7);
 }
 .item_detail {
     flex: 1;

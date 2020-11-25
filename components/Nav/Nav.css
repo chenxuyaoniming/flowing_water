@@ -15,9 +15,6 @@
     border-radius: 6rpx;
     background-color: #fff;
 }
-.nav view:hover {
-    background-color: azure;
-}
 .nav view text {
     width: 160rpx;
     margin-top: 6rpx;
