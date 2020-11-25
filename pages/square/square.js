@@ -19,6 +19,7 @@ Page({
     },
     onPullDownRefresh: function() {
         // 监听用户下拉动作
+        console.log('refresh:::')
     },
     onReachBottom: function() {
         // 页面上拉触底事件的处理函数

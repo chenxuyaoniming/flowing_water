@@ -29,6 +29,7 @@
         </view>
     </view>
     <view class="chat_room_form">
+        <smt-icon name="shutdown" size="60rpx" color="#ff9408" class="chat_room_more" bindtap="showClose"></smt-icon>
         <input type="text" placeholder="请输入内容" value="{= value =}" bindinput="setValue"/>
         <view class="chat_room_btn" bindtap="send">
             发送

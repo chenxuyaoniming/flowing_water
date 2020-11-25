@@ -25,19 +25,31 @@ page, .chat_room {
     float: left;
     border: 2rpx solid #ddd;
     height: 80rpx;
+    margin: 0 10rpx;
+    border-radius: 60rpx;
     padding: 0 20rpx;
 }
 .chat_room_btn {
     height: 80rpx;
     line-height: 80rpx;
     width: 110rpx;
-    background-color: rgb(218, 238, 255);
-    border-top-right-radius: 10rpx;
-    border-bottom-right-radius: 10rpx;
+    color: #fff;
+    background-color: rgb(13, 111, 238);
+    margin-right: 20rpx;
+    border-radius: 30rpx;
     text-align: center;
     float: left;
 }
 
+.chat_room_more {
+    width: 70rpx;
+    margin-left: 10rpx;
+    border-radius: 10rpx;
+    text-align: center;
+    opacity: .8;
+    position: relative;
+    top: 10rpx;
+}
 
 .chat_item_left {
     padding: 10rpx;

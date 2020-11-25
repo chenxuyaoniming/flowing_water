@@ -60,5 +60,17 @@ Page({
         this.setData({
             value: ''
         })
+    },
+    showClose() {
+        swan.showModal({
+            content: '您确定已完成咨询？',
+            success(res) {
+                if (res.confirm) {
+                    swan.navigateBack({
+                        delta: 1
+                    })
+                }
+            }
+        })
     }
 });

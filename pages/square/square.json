@@ -1,6 +1,7 @@
 {
     "navigationBarTitleText": "广场",
     "usingComponents": {
-        "custom-tabbar": "/components/CustomTab/CustomTab"
+        "custom-tabbar": "/components/CustomTab/CustomTab",
+        "water-feed": "/components/Feed/Feed"
     }
 }

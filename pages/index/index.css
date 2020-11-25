@@ -92,12 +92,13 @@ view{
 }
 
 .feed {
-    padding: 20rpx 30rpx;
+    padding: 20rpx 0rpx;
 }
 .title {
     font-size: 28rpx;
 }
 .feed .title {
     line-height: 30rpx;
+    padding: 0 20rpx;
 }
 

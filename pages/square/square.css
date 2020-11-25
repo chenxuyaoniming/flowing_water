@@ -1,0 +1,14 @@
+page {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+page {
+    background-color: rgb(240, 240, 240);
+}
+.square {
+    overflow: hidden;
+    padding: 10rpx;
+    padding-bottom: 100rpx;
+    box-sizing: border-box;
+}

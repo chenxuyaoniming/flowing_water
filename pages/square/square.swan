@@ -1,4 +1,7 @@
-<view class="container">
-    <!--to do-->
+<view class="square">
+    <view class="square_content">
+        <water-feed></water-feed>
+    </view>
+    
     <custom-tabbar current=2></custom-tabbar>
 </view>

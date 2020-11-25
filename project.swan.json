@@ -59,13 +59,24 @@
                 },
                 "id": 4,
                 "text": "pages/chatRoom/chatRoom"
+            },
+            {
+                "extra": {
+                    "compileArgs": "--module cmd",
+                    "ext": {},
+                    "index": "pages/square/square",
+                    "query": "",
+                    "scene": {}
+                },
+                "id": 5,
+                "text": "pages/square/square"
             }
         ],
-        "selected": -2
+        "selected": 4
     },
     "host": "baiduboxapp",
     "preview": {
-        "packageId": 694363
+        "packageId": 696467
     },
     "projectname": "flowing_water",
     "setting": {
