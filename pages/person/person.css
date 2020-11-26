@@ -4,25 +4,43 @@ page {
     background-color: rgb(241, 241, 241);
 }
 .person_info {
-    padding: 10rpx 40rpx;
+    padding: 20rpx;
     overflow: hidden;
     background-color: #fff;
     margin: 10rpx 0;
-    font-size: 30rpx;
-    font-weight: bold;
     box-sizing: border-box;
 }
 .person_info image {
-    width: 100rpx;
-    height: 100rpx;
+    width: 160rpx;
+    height: 160rpx;
     border-radius: 10rpx;
     float: left;
+    margin-right: 20rpx;
 }
-.person_info text {
-    float: left;
+.person_info > view {
+    overflow: hidden;
     margin-left: 20rpx;
-    line-height: 100rpx;
-    font-size: 34rpx;
+    font-size: 38rpx;
+}
+.person-name {
+    font-weight: bold;
+}
+.person-honor {
+    font-size: 26rpx;
+    color: rgb(255, 153, 0);
+}
+.person-solgan {
+    font-size: 26rpx;
+    margin-top: 20rpx;
+    margin-bottom: 14rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.person-honor view {
+    position: relative;
+    top: 6rpx;
+    margin-right: 8rpx;
 }
 .line {
     width: 100%;
@@ -31,4 +49,40 @@ page {
 }
 .person-tabs {
     font-size: 26rpx;
+}
+.swan-spider-tap {
+    font-size: 24rpx;
+}
+
+.my-money {
+    float: right;
+    font-size: 25rpx;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40rpx;
+}
+.my-money-title {
+    font-size: 30rpx;
+    margin-top: 10rpx;
+    color: #525252;
+}
+.my-money-count {
+    color: #333;
+}
+.pay {
+    background-color: #fff;
+    height: 140rpx;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14rpx;
+}
+.pay > view {
+    /* border: 1px solid #ddd; */
+    font-size: 26rpx;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80rpx;
+    justify-content: center;
+    float: right;
+    margin-left: 28rpx;
 }

@@ -2,6 +2,7 @@
     "navigationBarTitleText": "我的",
     "usingComponents": {
         "custom-tabbar": "/components/CustomTab/CustomTab",
-        "water-person-list": "/components/PersonList/PersonList"
+        "water-person-list": "/components/PersonList/PersonList",
+        "smt-icon": "@smt-ui/component/src/icon"
     }
 }

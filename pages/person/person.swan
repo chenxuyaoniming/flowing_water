@@ -2,13 +2,40 @@
     <custom-tabbar current=5></custom-tabbar>
 
     <view class="person_info">
-        <image src="/assets/images/cat.jpg">
+        <image src="/assets/images/dog.jpeg">
         </image>
-        <text>
-            精神小伙
-        </text>
+        <view>
+            <text class="person-name">
+                阿宾
+            </text>
+            <view class="person-solgan">三十功名尘与土，八千里路云和月</view>
+            <view class="person-honor">
+                <smt-icon name="crown" size="30rpx"></smt-icon>
+                认证情感大师
+            </view>
+        </view>
     </view>
-    <view class="line"></view>
+
+    <view class="pay">
+        <view class="my-money">
+            <view class="my-money-title">
+                <smt-icon name="gold-coin-m" size="50rpx"></smt-icon>
+            </view>
+            <view class="my-money-count">97.88</view>
+        </view>
+        <view class="pay-in">
+            <smt-icon name="fund-house-m" size="54rpx"></smt-icon>
+            <text>
+            充值
+            </text>
+        </view>
+        <view class="pay-out">
+            <smt-icon name="shopping-m" size="52rpx"></smt-icon>
+        提现
+        </view>
+
+
+    </view>
     <tabs
         class="person-tabs"
         active-name="{{activeNameOne}}"
