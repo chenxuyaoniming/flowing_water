@@ -18,8 +18,8 @@
 }
 .create_image_title {
     padding: 0 20rpx;
-    font-size: 30rpx;
-    margin-bottom: 20rpx;
+    font-size: 32rpx;
+    margin-bottom: 10rpx;
 }
 .image_item {
     height: 164rpx;
@@ -40,8 +40,9 @@
 }
 .create_price {
     display: flex;
+    border-top: 1rpx solid #ddd;
     padding: 20rpx 20rpx 0;
-    font-size: 28rpx;
+    font-size: 32rpx;
     align-items: center;
 }
 #price_ipt {
@@ -50,7 +51,7 @@
     border: 1px solid #ddd;
     border-radius: 4rpx;
     margin-left: 20rpx;
-    margin-right: 300rpx;
+    margin-right: 280rpx;
     padding: 10rpx;
 }
 .create_btn {
@@ -62,12 +63,16 @@
     text-align: center;
     border-radius: 8rpx;
     margin: 10rpx 0;
+    font-size: 44rpx;
+    padding: 20rpx;
 }
 .btn_success {
-    background-color: rgb(46, 154, 255);
+    background-color: rgb(253, 157, 68);
     color: #fff;
 }
-
+.btn_fail {
+    border-bottom: 1px solid #ddd;
+}
 .create_wraper {
     position: fixed;
     left: 0;

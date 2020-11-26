@@ -33,7 +33,8 @@
                     "ext": {},
                     "index": "pages/create/create",
                     "query": "",
-                    "scene": {}
+                    "scene": {},
+                    "isUpdate": false
                 },
                 "id": 2,
                 "text": "pages/create/create"
@@ -83,11 +84,11 @@
                 "text": "pages/columnist/columnist"
             }
         ],
-        "selected": -2
+        "selected": 2
     },
     "host": "baiduboxapp",
     "preview": {
-        "packageId": 697184
+        "packageId": 697212
     },
     "projectname": "flowing_water",
     "setting": {
