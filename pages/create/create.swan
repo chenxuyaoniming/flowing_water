@@ -26,8 +26,8 @@
         请设置问题金额：¥ <input type="number" id="price_ipt" value="{= price =}"/>
     </view>
     <view class="create_btn">
-        <text class="btn btn_success" bindtap="success">确认</text>
-        <text class="btn btn_fail" bindtap="cancel">取消</text>
+        <button class="btn btn_success" bindtap="success">确认</button>
+        <button class="btn btn_fail" bindtap="cancel">取消</button>
     </view>
     <view class="create_wraper" s-if="isSearch">
 

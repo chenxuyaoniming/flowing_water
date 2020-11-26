@@ -11,9 +11,9 @@
         "pages/columnist/columnist"
     ],
     "window": {
-        "navigationBarBackgroundColor": "#ffffff",
-        "navigationBarTextStyle": "black",
-        "navigationBarTitleText": "百度活水",
+        "navigationBarBackgroundColor": "#f78a31",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "活水",
         "backgroundTextStyle": "light"
     }
 }

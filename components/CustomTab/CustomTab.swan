@@ -11,7 +11,7 @@
                   size="{{item.id == 3 ? '60rpx' : '30rpx'}}"
                   class="tabbar_icon"
                   data-url="{{item.path}}"
-                  color="{{item.id == current ? '#e06d0f' : '#333'}}">
+                  color="#fff">
         </smt-icon>
         <view>
             {{item.title}}
