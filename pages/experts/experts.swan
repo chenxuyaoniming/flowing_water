@@ -3,17 +3,12 @@
         <water-expert></water-expert>
     </view>
     <view class="experts_title">
-        <view class="experts_school">
-            <view class="school">
-                <smt-icon class="expert_school_icon" name="staff-m" size="30rpx" />昆士兰大学心理学硕士
-            </view>
-        </view>
-        <view class="experts_type">
-            擅长：分手挽回
+        <view class="experts-tips" s-for="tips">
+            # {{item}}
         </view>
     </view>
     <view class="resume">
-            <text class="title">专家简介：</text>
+            <text class="title">简介：</text>
             <text class="description">{{description}}</text>
         </view>
     <view class="experts_line"></view>

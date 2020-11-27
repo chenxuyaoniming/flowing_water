@@ -87,11 +87,11 @@
     },
     "host": "baiduboxapp",
     "preview": {
-        "packageId": 700417
+        "packageId": 700536
     },
     "projectname": "flowing_water",
     "publish": {
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "setting": {
         "urlCheck": false

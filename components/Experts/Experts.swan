@@ -1,20 +1,20 @@
 <view class="expertInfo">
-    <image src="/assets/images/dog.jpeg" />
+    <image src="/assets/images/expert1.jpg" />
     <view class="expertInfo_detail">
         <text>
             <text class="name">
                 {{item.name}}
             </text>
-            <text class="type">
+            <!-- <text class="type">
                 #{{item.type}}
-            </text>
+            </text> -->
         </text>
         <text>
             <text class="count">
-                {{item.count}}次咨询
+                共帮助了<text style="color: red">{{item.count}}</text>人
             </text>
             <text class="star">
-                ⭐ {{item.star}}
+                评分<text style="color: red">{{item.star}}</text>分
             </text>
         </text>
         <text>

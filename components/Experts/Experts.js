@@ -11,11 +11,11 @@ Component({
 
     data: {
         item: {
-            name: '夏洛',
+            name: '张天成',
             type: '情感',
             count: '100',
             star: '4.0',
-            solgan: '外事不决找百度，内事不决问夏洛',
+            solgan: '著名职场分析师 前上市公司CEO',
             id: 1,
             price: '200'
         },

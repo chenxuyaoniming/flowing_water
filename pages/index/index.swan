@@ -1,7 +1,19 @@
 <!-- index.swan -->
 <view class="container">
-    <view class="header">
+    <!-- <view class="header">
         <input type="text" placeholder="请输入内容"/>
+    </view> -->
+    <view class="swiper-wrap" style="width: 100%;">
+        <input type="text" placeholder="请输入内容"/>
+        <swiper
+            class="swiper-custom"
+            autoplay="auto"
+            interval="3000"
+            duration="500">
+            <swiper-item s-for="{{slider}}" style="width: 100%">
+                <image class="swiper-img" style="width: 100%; height: 320rpx" src="{{item}}"></image>
+            </swiper-item>
+        </swiper>
     </view>
     <view class="content">
         <water-nav></water-nav>

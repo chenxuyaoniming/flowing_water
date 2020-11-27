@@ -34,6 +34,7 @@
 }
 .name {
     margin-right: 20rpx;
+    margin-top: 10rpx;
 }
 .type {
     font-size: 24rpx;
@@ -41,9 +42,12 @@
 }
 .count {
     margin-right: 20rpx;
+
+    font-size: 20rpx;
 }
 .star {
     vertical-align: middle;
+    font-size: 20rpx;
 }
 .follow {
     width: 120rpx;
@@ -56,9 +60,11 @@
     margin-top:10rpx;
 }
 .price {
-    border: 1px solid rgb(183, 140, 211);
+    /* border: 1px solid rgb(183, 140, 211); */
     padding: 4rpx;
+    color: rgb(207, 109, 28);
     border-radius: 8rpx;
+    background-color: rgb(247, 206, 168);
 }
 .follow_btn {
     display: inline-block;

@@ -3,19 +3,19 @@ Page({
         chatList: [
             {
                 author: '夏洛',
-                imageUrl: '/assets/images/dog.jpeg',
+                imageUrl: '/assets/images/expert1.jpg',
                 content: '十里寒塘路，烟花一半醒。晨钟催落月，宿火乱稀星。',
                 id: 1,
             },
             {
                 author: '张伟',
-                imageUrl: '/assets/images/cat.jpg',
+                imageUrl: '/assets/images/expert2.jpg',
                 content: '历经万般红尘劫，犹如凉风轻拂面。',
                 id: 2,
             },
             {
                 author: '荔枝',
-                imageUrl: '/assets/images/dog.jpeg',
+                imageUrl: '/assets/images/expert3.jpg',
                 content: '君臣一梦，今古空名。但远山长，云山乱，晓山青。',
                 id: 3,
             },

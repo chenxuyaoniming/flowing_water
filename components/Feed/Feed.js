@@ -14,21 +14,21 @@ Component({
             {
                 title: '股市风云录——为什么蛋壳股价会触底反弹',
                 videoUrl: '',
-                imageUrl: '/assets/images/cat.jpg',
+                imageUrl: '/assets/images/banner1.jpg',
                 createBy: '12',
                 commentCount: '200',
-                author: '夏鲁普'
+                author: '开尔文'
             },
             {
-                title: '他还爱我吗他还爱我吗他还爱我吗他还爱我吗他还爱我吗他还爱我吗他还爱我吗',
+                title: '独家解析 - 职场晋升秘法',
                 videoUrl: '',
                 // imageUrl: '/assets/images/cat.jpg',
                 createBy: '12',
                 commentCount: '200',
-                author: '咕噜'
+                author: '金线兰'
             },
             {
-                title: '春天在哪里，春天在这里啊',
+                title: '生完孩子，是否需要坐月子',
                 videoUrl: '',
                 // imageUrl: '/assets/images/cat.jpg',
                 createBy: '12',
@@ -36,17 +36,17 @@ Component({
                 author: '小燕子'
             },
             {
-                title: '特斯拉怎么样',
+                title: '特斯拉股票值得买吗',
                 videoUrl: '',
-                // imageUrl: '/assets/images/cat.jpg',
+                imageUrl: '/assets/images/banner3.jpg',
                 createBy: '12',
                 commentCount: '200',
                 author: '股票大神'
             },
             {
-                title: '他还爱我吗',
+                title: '一岁小孩家长应该如何教育',
                 videoUrl: '',
-                imageUrl: '/assets/images/dog.jpeg',
+                imageUrl: '/assets/images/banner4.jpg',
                 createBy: '12',
                 commentCount: '10',
                 author: '西西卡'

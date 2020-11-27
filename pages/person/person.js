@@ -15,29 +15,29 @@ Page({
             {
                 status: '已完成',
                 price: '200',
-                author: '高球',
+                author: '李林',
                 time: '2020-11-11',
-                type: '情感',
-                content: '谢谢谢谢谢谢',
-                imageUrl: '/assets/images/cat.jpg'
+                type: '职场咨询',
+                content: '坚持自己，不要同流合污',
+                imageUrl: '/assets/images/expert1.jpg'
             },
             {
                 status: '已完成',
                 price: '100',
-                author: '高球',
+                author: '刘梓林',
                 time: '2020-11-11',
                 type: '情感',
-                content: '谢谢谢谢谢谢',
-                imageUrl: '/assets/images/cat.jpg'
+                content: '您说的太好了，非常感谢',
+                imageUrl: '/assets/images/expert2.jpg'
             },
             {
-                status: '已完成',
+                status: '咨询中',
                 price: '30',
-                author: '高球',
+                author: '李志成',
                 time: '2020-11-11',
-                type: '情感',
-                content: '谢谢谢你笑起来真好画一样哈哈哈哈谢谢',
-                imageUrl: '/assets/images/cat.jpg'
+                type: '商业合同',
+                content: '稍等，我五分钟后联系您',
+                imageUrl: '/assets/images/expert1.jpg'
             }
         ],
         list2: [
@@ -47,8 +47,8 @@ Page({
                 author: '高球',
                 time: '2020-11-11',
                 type: '股市',
-                content: '太差了，你都没我懂',
-                imageUrl: '/assets/images/dog.jpeg'
+                content: '抱歉，找错人了',
+                imageUrl: '/assets/images/expert3.jpg'
             },
             {
                 status: '待退款',
@@ -56,8 +56,8 @@ Page({
                 author: '高球',
                 time: '2020-11-11',
                 type: '情感',
-                content: '你好菜啊',
-                imageUrl: '/assets/images/cat.jpg'
+                content: '您好，在吗',
+                imageUrl: '/assets/images/expert1.jpg'
             },
             {
                 status: '已完成',
@@ -65,8 +65,8 @@ Page({
                 author: '高球',
                 time: '2020-11-11',
                 type: '情感',
-                content: '谢谢谢你笑起来真好画一样哈哈哈哈谢谢',
-                imageUrl: '/assets/images/dog.jpeg'
+                content: '你刚刚的说法，我不同意',
+                imageUrl: '/assets/images/expert1.jpg'
             },
             {
                 status: '已完成',
@@ -74,8 +74,8 @@ Page({
                 author: '太乙',
                 time: '2020-11-11',
                 type: '情感',
-                content: '啊朋友再见，啊朋友再见',
-                imageUrl: '/assets/images/dog.jpeg'
+                content: '欢迎您下次咨询',
+                imageUrl: '/assets/images/expert2.jpg'
             }
         ]
     },

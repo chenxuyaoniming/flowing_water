@@ -6,12 +6,12 @@ Page({
             {
                 author: '夏洛',
                 content: '我亦可贪恋烟火，殷实人家，几间瓦房，四方小院，守着流年，幸福安康',
-                imageUrl: '/assets/images/dog.jpeg'
+                imageUrl: '/assets/images/expert2.jpeg'
             },
             {
                 author: '',
                 content: '十里寒塘路，烟花一半醒。晨钟催落月，宿火乱稀星。',
-                imageUrl: '/assets/images/cat.jpg'
+                imageUrl: '/assets/images/expert1.jpg'
             },
         ]
     },

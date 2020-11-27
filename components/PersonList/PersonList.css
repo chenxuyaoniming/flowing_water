@@ -29,9 +29,10 @@
     align-items: center;
     justify-content: center;
     margin-right: 10rpx;
-    background-color: rgb(80, 180, 180);
+    /* background-color: rgb(235, 205, 110); */
     padding: 10rpx ;
-    color: #fff;
+    /* color: #fff; */
+    border-right: 2rpx dashed rgb(185, 185, 185);
 }
 .status {
     margin-bottom: 20rpx;
@@ -39,7 +40,7 @@
 }
 .price {
     font-weight: bold;
-    color: rgb(223, 39, 7);
+    color: rgb(223, 136, 6);
 }
 .item_detail {
     flex: 1;
@@ -52,7 +53,8 @@
     width: 100%;
 }
 .detail_info {
-    margin-bottom: 20rpx;
+    margin-top: 8rpx;
+    margin-bottom: 16rpx;
 }
 .type {
     font-size: 24rpx;
@@ -68,4 +70,5 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-size: 24rpx;
 }

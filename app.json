@@ -11,7 +11,7 @@
         "pages/columnist/columnist"
     ],
     "window": {
-        "navigationBarBackgroundColor": "#f78a31",
+        "navigationBarBackgroundColor": "#3d80fd",
         "navigationBarTextStyle": "white",
         "navigationBarTitleText": "活水咨询",
         "backgroundTextStyle": "light"
