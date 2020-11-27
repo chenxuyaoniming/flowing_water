@@ -21,15 +21,15 @@
             <view class="question_list">
                 <view>
                     <smt-icon name="hot" color="red" class="icon-hot" size="30rpx"></smt-icon>
-                    <text>马老师厉害吗？</text>
+                    <text>与迷茫的人生渐行渐远？</text>
                 </view>
                 <view>
                     <smt-icon name="hot" color="red" class="icon-hot" size="30rpx"></smt-icon>
-                    <text>玉兔2号一次能带多少资源？</text>
+                    <text>如何搞定产品实习，产品职位？</text>
                 </view>
                 <view>
                     <smt-icon name="hot" color="red" class="icon-hot" size="30rpx"></smt-icon>
-                    <text>川宝是共产党吗？</text>
+                    <text>人工智能技术如何在自己的业务中落地？</text>
                 </view>
                 <view>
                     <smt-icon name="hot" color="red" class="icon-hot" size="30rpx"></smt-icon>

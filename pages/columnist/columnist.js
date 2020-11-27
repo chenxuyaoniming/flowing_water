@@ -6,54 +6,59 @@ Page({
     data: {
         recommendList: [
             {
-                name: '夏洛',
-                type: '情感',
+                name: '黄柯庆',
+                // type: '情感',
+                imgUrl: '/assets/images/expert2.jpg',
                 count: '100',
-                star: '4.0',
-                solgan: '外事不决找百度，内事不决问夏洛',
-                id: 1,
-                price: '200'
-            },
-            {
-                name: '夏张浩洛',
-                type: '情感',
-                count: '100',
-                star: '4.0',
-                solgan: '全能王',
-                id: 2,
-                price: '370'
-            },{
-                name: '卡卡西',
-                type: '情感',
-                count: '100',
-                star: '4.0',
-                solgan: '忍术一绝',
+                star: '9.7',
+                solgan: '前500强董事总经理',
                 id: 3,
-                price: '80'
+                price: '80',
+                tips: [
+                    '如何走出职场困境',
+                    '如何实现职场转型'
+                ],
+                goods: [
+                    '职业规划',
+                    '职场转型',
+                    '专业晋升',
+                ]
             },{
-                name: '洛克·李',
-                type: '情感',
-                count: '100',
-                star: '4.0',
-                solgan: '燃烧你的青春，哦耶',
+                name: '刘学亮',
+                // type: '情感',
+                imgUrl: '/assets/images/expert1.jpg',
+                count: '100086',
+                star: '8.5',
+                solgan: '北大法学系 20年法律实战经验',
                 id: 4,
-                price: '200'
+                price: '200',
+                goods: [
+                    '股权安排，买卖，公司重组（股权重组）',
+                    '商务合同，股权如何分配'
+                ],
+                tips: [
+                    '团队搭建',
+                    '股权分配',
+                    '创业经验'
+                ]
             },{
-                name: '夏洛',
-                type: '情感',
-                count: '2340',
-                star: '4.0',
-                solgan: '外事不决找百度，内事不决问夏洛',
-                id: 5,
-                price: '800'
-            },{
-                name: '夏洛',
-                type: '情感',
-                count: '100',
-                star: '4.0',
-                solgan: '外事不决找百度，内事不决问夏洛',
-                id: 1,
-                price: '200'
+                name: '王文彬',
+                // type: '情感',
+                imgUrl: '/assets/images/expert3.jpg',
+                count: '286',
+                star: '8.5',
+                solgan: 'CEO潜能教练，艾迪无线CEO',
+                id: 4,
+                price: '200',
+                goods: [
+                    '潜能教练 | 人人都需要的一趟潜能课',
+                    '成长教练 | 如何喜悦活在当下'
+                ],
+                tips: [
+                    '生活服务',
+                    '职场发展',
+                    '沟通'
+                ]
             }
         ]
     },

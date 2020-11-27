@@ -11,7 +11,7 @@
 .feed_item > text {
     display: block;
     margin-bottom: 6rpx;
-    font-size: 28rpx;
+    font-size: 24rpx;
     font-weight: bold;
 }
 .feed_item > video {
@@ -25,4 +25,5 @@
 .feed_item .item_bottom > text {
     margin-right: 20rpx;
     opacity: .8;
+    font-size: 18rpx;
 }

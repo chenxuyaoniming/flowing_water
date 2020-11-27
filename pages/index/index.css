@@ -74,6 +74,7 @@ view{
     padding-left: 30rpx;
     height: 40rpx;
     line-height: 40rpx;
+    font-size: 22rpx;
 }
 .icon-hot {
     position: absolute;

@@ -1,36 +1,46 @@
 <view class="recommended">
             <view class="expertInfo" s-for="item, index in recommendList" key={{index}} bindtap="toExperts">
-                <image src="/assets/images/cat.jpg"/>
-                <view class="expertInfo_detail">
-                    <view>
-                        <text class="name">
-                            {{item.name}}
-                        </text>
-                        <text class="type">
-                            #{{item.type}}
-                        </text>
-                    </view>
-                    <view>
-                        <view class="count">
-                            {{item.count}}次咨询
-                        </view>
-                        <view class="star">
-                        <smt-icon name="hot" size="24rpx" color="red" class="hot"></smt-icon>
-                            <text>
-                            {{item.star}}
+                <view>
+                    <image src="{{item.imgUrl}}"/>
+                    <view class="expertInfo_detail">
+                        <view>
+                            <text class="name">
+                                {{item.name}}
                             </text>
                         </view>
-                    </view>
-                    <view>
-                        {{item.solgan}}
+                        <view style="font-size: 24rpx">
+                            {{item.solgan}}
+                        </view>
                     </view>
                 </view>
-                <view class="follow">
-                    <view class="price">
-                        ￥{{item.price}}/次
+                <view class="expertInfo-sp">
+                    <view s-for="idx in item.goods">
+                        <text class="expertInfo-icon">#</text>
+                        {{idx}}
                     </view>
-                    <view  class="follow_btn">
-                        关注
+                </view>
+                <view class="expertInfo-tips">
+                    <view s-for="idx in item.tips">
+                        {{idx}}
+                    </view>
+                </view>
+                <view class="expertInfo-add">
+                    <view>
+                        <smt-icon name="location" color="#333" size="24rpx" class="expertInfo-location"></smt-icon>
+                        上海
+                    </view>
+                    <view>
+                        帮助了
+                        <text>{{item.count}}</text>
+                        人
+                    </view>
+                    <view>
+                        评分
+                        <text>{{item.star}}</text>
+                        分
+                    </view>
+                    <view class="expertInfo-price">
+                        ￥{{item.price}}
                     </view>
                 </view>
             </view>

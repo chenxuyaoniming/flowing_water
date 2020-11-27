@@ -1,5 +1,5 @@
 {
-    "navigationBarTitleText": "活水",
+    "navigationBarTitleText": "活水咨询",
     "usingComponents": {
         "water-nav": "/components/Nav/Nav",
         "water-recommend": "/components/Recommend/Recommend",

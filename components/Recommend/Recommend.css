@@ -5,39 +5,98 @@
     display: block;
     font-size: 36rpx;
 }
+.expertInfo > view {
+    overflow: hidden;
+}
 .expertInfo {
-    height: 140rpx;
+    /* height: 140rpx; */
     /* background-color: rgb(247, 247, 253); */
-    margin-top: 16rpx;
-    display: flex;
-    flex-wrap: nowrap;
+    margin-top: 10rpx;
     border-radius: 8rpx;
     background-color: #fff;
-    box-shadow: 0 2rpx 10rpx #ddd;
-
+    border-bottom: 1rpx solid rgb(201, 201, 201);
+    padding: 10rpx 0;
 }
-.expertInfo > image {
+.expertInfo image {
     width: 100rpx;
     height: 100rpx;
-    margin: 20rpx 0 0 10rpx;
-    border-radius: 8rpx;
+    margin-left: 10rpx;
+    border-radius: 100rpx;
     float: left;
 }
 .expertInfo_detail {
     float: left;
     margin-left: 16rpx;
-    padding: 10rpx;
+    padding: 20rpx 10rpx;
     height: 100%;
     font-size: 24rpx;
     flex: 1;
     box-sizing: border-box;
-    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
 }
 .expertInfo_detail > view {
     display: block;
-    margin-top: 4rpx;
+    width: 100%;
+}
+.expertInfo-sp {
+    padding: 10rpx 10rpx 0;
+    font-size: 20rpx;
+}
+.expertInfo-sp view {
+    margin-bottom: 6rpx;
+}
+.expertInfo-icon {
+    color: rgb(119, 119, 119);
+    margin-right: 16rpx;
+}
+.expertInfo-tips {
+    padding: 0 10rpx;
+}
+.expertInfo-tips view {
+    display: inline-block;
+    padding: 2rpx 8rpx;
+    background-color: #ddd;
+    font-size: 20rpx;
+    margin-left: 10rpx;
+    border-radius: 10rpx;
+    opacity: .7;
+}
+.expertInfo-add {
+    padding: 10rpx;
+    position: relative;
+}
+
+
+.expertInfo-add view {
+    float: left;
+    margin-top: 10rpx;
+    font-size: 20rpx;
+    color: rgb(75, 75, 75);
+    padding-left: 25rpx;
+    position: relative;
+}
+.expertInfo-add text {
+    color: red;
+}
+.expertInfo-location {
+    position: absolute;
+    left: -8rpx;
+    top: -8rpx;
+}
+.expertInfo-add .expertInfo-price {
+    color: rgb(180, 124, 20);
+    text-align: center;
+    padding: 2rpx 8rpx;
+    border-radius: 6rpx;
+    position: absolute;
+    right: 10rpx;
+    background-color: bisque;
 }
 .name, .count, .type, .star {
     display: inline-block;
