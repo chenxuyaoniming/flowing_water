@@ -22,22 +22,22 @@ view{
     background-color: rgb(189, 189, 189);
 }
 .header {
-    /* height: 72rpx; */
+    height: 100rpx;
     width: 100%;
     text-align: left;
     padding: 18rpx;
-    /* background-color: #f78a31; */
-    position: fixed;
-    top: 0rpx;
+    background-color: #3d80fd;
+    /* position: fixed;
+    top: 0rpx; */
     z-index: 10;
-    /* box-shadow: 0 4rpx 10rpx #ddd;
-    border-bottom-left-radius: 10rpx;
+    /* box-shadow: 0 4rpx 10rpx #ddd; */
+    /* border-bottom-left-radius: 10rpx;
     border-bottom-right-radius: 10rpx; */
 }
 .swiper-wrap {
     position: relative;
 }
-.swiper-wrap input {
+.header input {
     height: 72rpx;
     border-radius: 20rpx;
     margin: 0 20rpx;
@@ -48,6 +48,7 @@ view{
     position: absolute;
     height: 60rpx;
     top: 20rpx;
+    left: 0;
     z-index: 99;
     width: 88%;
 }

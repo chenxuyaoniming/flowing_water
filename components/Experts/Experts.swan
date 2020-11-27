@@ -1,5 +1,5 @@
 <view class="expertInfo">
-    <image src="/assets/images/expert1.jpg" />
+    <image src="/assets/images/yt.JPG" bindtap="toWeb"/>
     <view class="expertInfo_detail">
         <text>
             <text class="name">
@@ -22,7 +22,7 @@
         </text>
     </view>
     <view class="follow">
-        <view class="price">
+        <view class="price" bindtap="toChatRoom">
             ￥{{item.price}}/次
         </view>
         <view class="follow_btn">

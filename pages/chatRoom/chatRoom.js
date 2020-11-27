@@ -4,9 +4,9 @@ Page({
         value: "",
         chatList: [
             {
-                author: '夏洛',
+                author: '叶檀',
                 content: '我亦可贪恋烟火，殷实人家，几间瓦房，四方小院，守着流年，幸福安康',
-                imageUrl: '/assets/images/expert2.jpeg'
+                imageUrl: '/assets/images/yt.JPG'
             },
             {
                 author: '',

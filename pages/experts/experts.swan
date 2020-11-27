@@ -46,4 +46,7 @@
         <water-feed></water-feed>
         <water-feed></water-feed>
     </view>
+    <view class="toChat" bindtap="toChat">
+        去咨询
+    </view>
 </view>

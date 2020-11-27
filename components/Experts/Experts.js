@@ -11,13 +11,13 @@ Component({
 
     data: {
         item: {
-            name: '张天成',
+            name: '叶檀',
             type: '情感',
             count: '100',
             star: '4.0',
-            solgan: '著名职场分析师 前上市公司CEO',
+            solgan: '人生规划导师 知名财经评论家',
             id: 1,
-            price: '200'
+            price: '300'
         },
 
     }, // 私有数据，可用于模版渲染
@@ -32,6 +32,16 @@ Component({
             this.setData({
                 // 更新属性和数据的方法与更新页面数据的方法类似
             });
+        },
+        toChatRoom() {
+            swan.navigateTo({
+                url:`/pages/chatRoom/chatRoom?name=${this.data.item.name}`
+            })
+        },
+        toWeb() {
+            swan.navigateTo({
+                url: '/pages/webview/webview'
+            })
         }
     }
 });

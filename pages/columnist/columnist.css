@@ -5,3 +5,19 @@ page {
 .columnist {
     padding: 10rpx 20rpx;
 }
+.nav_list {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0 10rpx;
+}
+.nav_list > view {
+    float: left;
+    padding: 30rpx 10rpx;
+    margin-right: 20rpx;
+    border-radius: 8rpx;
+    font-size: 24rpx;
+}
+.current {
+    color: red;
+    font-weight: bold;
+}

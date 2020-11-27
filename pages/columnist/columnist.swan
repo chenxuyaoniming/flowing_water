@@ -5,7 +5,15 @@
     bind:scrolltolower="scrollToLower"
     text="{{PullText}}"
 >
+    <scroll-view scroll-x="true">
+            <view class="nav_list">
+                <view s-for="nav_list" class="{{index == 0 ? 'current' : ''}}">
+                    {{item}}
+                </view>
+            </view>
+        </scroll-view>
     <view class="columnist">
+
         <water-recommend recommendList="{{recommendList}}"></water-recommend>
     </view>
     <!-- <smt-spin status="{{status}}" bind:tap="reload"></smt-spin> -->

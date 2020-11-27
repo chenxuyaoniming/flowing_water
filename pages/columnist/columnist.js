@@ -4,16 +4,23 @@
 
 Page({
     data: {
+        nav_list: [
+            '全部',
+            '项目管理',
+            '转型之路',
+            '职业规划',
+            '面试简历',
+        ],
         recommendList: [
             {
-                name: '黄柯庆',
+                name: '叶檀',
                 // type: '情感',
-                imgUrl: '/assets/images/expert2.jpg',
+                imgUrl: '/assets/images/yt.JPG',
                 count: '100',
                 star: '9.7',
-                solgan: '前500强董事总经理',
+                solgan: '人生规划导师 知名财经评论家',
                 id: 3,
-                price: '80',
+                price: '300',
                 tips: [
                     '如何走出职场困境',
                     '如何实现职场转型'

@@ -2,8 +2,8 @@ Page({
     data: {
         chatList: [
             {
-                author: '夏洛',
-                imageUrl: '/assets/images/expert1.jpg',
+                author: '叶檀',
+                imageUrl: '/assets/images/yt.JPG',
                 content: '十里寒塘路，烟花一半醒。晨钟催落月，宿火乱稀星。',
                 id: 1,
             },

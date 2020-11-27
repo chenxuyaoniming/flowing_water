@@ -1,5 +1,5 @@
 <view class="comment">
-    <image src="/assets/images/cat.jpg"></image>
+    <image src="{{commentItem.imgUrl}}"></image>
     <view class="comment_detail">
         <view class="comment_author">
             <text>

@@ -8,7 +8,8 @@
         "pages/create/create",
         "pages/chat/chat",
         "pages/chatRoom/chatRoom",
-        "pages/columnist/columnist"
+        "pages/columnist/columnist",
+        "pages/webview/webview"
     ],
     "window": {
         "navigationBarBackgroundColor": "#3d80fd",
